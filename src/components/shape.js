@@ -14,4 +14,4 @@ calculateArea(){
 } 
 }
 
-module.exports = {Shape: Shape};
+module.exports = Shape;
