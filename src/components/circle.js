@@ -1,15 +1,12 @@
 // import using require
-
+// import using require
+const shape = require("./shape");
 // declare class
-
+class circle extends shape {
+  calculateArea() {
+    console.log("calculate area in circle");
+  }
+}
 
 // export class using module.exports
-let Shape = require("./shape.js");
-class Circle extends Shape {
-  constructor(){
-    super();
-  }
-calculateArea(){
-
-}
-}
+module.exports = circle;
